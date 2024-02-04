@@ -1,0 +1,329 @@
+/*Important*/
+li{
+    list-style-type: none;
+}
+
+a{
+    list-style-type: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+/* Header */
+
+.logotype{
+    width: 100px;
+    height: 60px;
+    top: 16px;
+    left: 168px;
+}
+
+.header{
+    display: flex;
+    height: 90px;
+    align-items: center;
+    justify-content: start;
+    background: #012D63;
+}
+
+.main-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-nav{
+    display: flex;
+}
+
+.site-nav-item{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #C7C7C7;
+}
+
+.site-nav-item,
+.nav-contacts-item{
+    margin-right: 50px;
+}
+
+.site-nav-item:last-child,
+.nav-contacts-item:last-child{
+    margin-right: 0;
+}
+
+.nav-links{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;   
+}
+
+
+.nav-links:hover{
+    color: #2196F3;
+}
+
+.active{
+    color: #FFFFFF;
+}
+
+.nav-contacts{
+    display: flex;
+}
+
+.span-UA{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #DCDCDC;
+}
+
+.span-Eng{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;    
+    color: #FFFFFF;
+}
+
+/* MAIN 1st Section */
+
+.main{
+
+}
+
+.intro-section {
+    background-image: url('photo/2.jpg');
+    background-size: cover;
+    padding: 50px;
+}
+
+.brand-info{
+
+}
+
+.brand-name{
+    font-family: PT Serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.main-title{
+    font-family: Playfair Display;
+    font-size: 144px;
+    font-weight: 400;
+    line-height: 192px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.subtitle{
+    font-family: Playfair Display;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 96px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.description{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.cta-button{
+    background: #8E32C6;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+    width: 254px;
+    height: 67px;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+/* MAIN 2nd Section */
+
+.feature-section {    
+    background-image: url('photo/6.jpg');
+    background-size: cover;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-item {
+    text-align: center;
+    margin-top: 145px;
+    margin-bottom: 145px;
+}
+
+.feature-title {
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 145px;
+}
+
+.feature-image {
+    width: 100px;
+    height: auto; 
+}
+
+/* MAIN 3nd Section */
+
+.reviews-section{
+    background-image: url('photo/7.jpg');
+    background-size: cover;
+    padding: 50px;
+}
+
+.section-title {
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.review-item {
+
+}
+
+.review-title {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.review-date {
+
+}
+
+.profile-picture {
+
+}
+
+.review-author {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.review-membership {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #D8D8D8;
+}
+
+/* MAIN 4nd Section */
+
+.Order-button{
+    width: 248px;
+    height: 68px;
+    top: 2546px;
+    left: 596px;
+    border-radius: 16px;
+    background: #8E32C6;
+    color:  #FFFFFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+/* FOOTER */
+
+.footer {
+    background: #021635;
+}
+
+.footer-section {
+    
+}
+
+.footer-title {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.footer-text {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.footer-brand {
+
+}
