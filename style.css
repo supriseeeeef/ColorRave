@@ -32,7 +32,7 @@ body{
     left: 168px;
 }
 
-.header{
+.border-header{
     display: flex;
     height: 90px;
     align-items: center;
