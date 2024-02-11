@@ -182,16 +182,26 @@ body {
 
 .feature-section {    
     background-image: url('photo/6.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
-    padding: 50px;
     display: flex;
     justify-content: space-between;
 }
 
 .feature-item {
     text-align: center;
-    margin-top: 145px;
-    margin-bottom: 145px;
+    margin: 105px 165px;
+    
+}
+
+.feature-list {
+    display: flex;
+    gap: 145px;
+    border: 5px solid var(--button-color);
+    padding: 22px;
+    margin-top: -40px;
+    align-items: center;
+    justify-content: center;
 }
 
 .feature-title {
@@ -202,12 +212,17 @@ body {
     letter-spacing: 0em;
     text-align: center;
     color: var(--color-tertiary);
-    margin-bottom: 145px;
+    margin-right: 145px;
 }
 
 .feature-image {
     width: 100px;
-    height: auto; 
+    height: auto;
+    width: 240px;
+    height: 240px;
+    top: 1184px;
+    left: 985px;
+    margin-right: 145px;
 }
 
 /* MAIN 3nd Section */
