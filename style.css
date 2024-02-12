@@ -1,4 +1,13 @@
 /* IMPORTANT */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
 
 :root {
     --color-primary: #012D63;
@@ -9,7 +18,7 @@
     --color-bg: #021635;
     --color-date: #D8D8D8;
     --order-text: #959595;
-
+    --color-footer-line: #9B9B9B;
 }
 
 li {
@@ -20,16 +29,6 @@ a {
     list-style-type: none;
     text-decoration: none;
     color: inherit;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    width: 1110px;
-    margin: 0 auto;
 }
 
 /* Header */
@@ -96,17 +95,13 @@ body {
 
 /* MAIN 1st Section */
 
-.main{
-
-}
-
 .intro-section {
     background-image: url('photo/2.jpg');
     background-size: cover;
     padding: 50px;
 }
 
-.brand-info{
+.brand-info {
     padding-top: 94px;
 }
 
@@ -115,7 +110,7 @@ body {
     height: 120px;
 }
 
-.brand-name{
+.brand-name {
     font-family: PT Serif;
     font-size: 48px;
     font-weight: 400;
@@ -126,7 +121,7 @@ body {
     margin-top: -30px;
 }
 
-.main-title{
+.main-title {
     font-family: Playfair Display;
     font-size: 144px;
     font-weight: 400;
@@ -137,7 +132,7 @@ body {
     margin-left: -15px;
 }
 
-.subtitle{
+.subtitle {
     font-family: Playfair Display;
     font-size: 72px;
     font-weight: 400;
@@ -147,7 +142,7 @@ body {
     margin-top: -110px;
 }
 
-.description{
+.description {
     font-family: Roboto;
     font-size: 18px;
     font-weight: 400;
@@ -158,7 +153,7 @@ body {
     margin-left: 3px;
 }
 
-.cta-button{
+.cta-button {
     background: var(--color-hover);
     color: var(--color-tertiary);
     cursor: pointer;
@@ -185,7 +180,7 @@ body {
    
 }
 
-.feature{
+.feature {
     margin-top: 105px;
     margin-bottom: 105px;
 }
@@ -227,7 +222,7 @@ body {
 
 /* MAIN 3nd Section */
 
-.reviews-section{
+.reviews-section {
     background-image: url('photo/6.jpg');
     background-size: cover;
 }
@@ -255,22 +250,21 @@ body {
     text-align: center;
     width: 255px;
     border-radius: 15px;
-    background-color: #2196F3;
     margin-bottom: 114px;
     padding: 49px 13px 29px 13px;
 }
 
-.review-item-1{
+.review-item-1 {
     background: linear-gradient(136.55deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
     box-shadow: 0px 14px 0px -5px #7B54B2;
 }
 
-.review-item-2{
+.review-item-2 {
     background: linear-gradient(136.55deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
     box-shadow: 0px 14px 0px -5px #9159B1;
 }
 
-.review-item-3{
+.review-item-3 {
     background: linear-gradient(142.67deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
     box-shadow: 0px 14px 0px -5px #B95A4C;
 }
@@ -308,7 +302,7 @@ body {
     top: 16px;
 } */
 
-.review-item:not(:last-child){
+.review-item:not(:last-child) {
     margin-right: 93px;
 }
 
@@ -355,12 +349,12 @@ body {
 
 /* MAIN 4nd Section */
 
-.order-section{
+.order-section {
     background-image: url('photo/11.jpg');
     background-size: cover;
 }
 
-.order-title{
+.order-title {
     font-family: Playfair Display;
     font-size: 48px;
     font-weight: 400;
@@ -405,18 +399,18 @@ body {
     outline: none;
 }
 
-.email{
+.email {
     width: 690px;
     height: 60px;
     padding-right: 220px;
 }
 
-.order-other-information{
+.order-other-information {
     width: 580px;
     height: 50px;
 }
 
-.confirmation-button{
+.confirmation-button {
     color: var(--order-text);
     font-size: 28px;
     font-family: Roboto;
@@ -432,7 +426,7 @@ body {
     cursor: pointer;
 }
 
-.order-button{
+.order-button {
     width: 248px;
     height: 68px;
     border-radius: 16px;
@@ -462,9 +456,9 @@ body {
     margin: 0;
 }
 
-.footer-list::after{
+.footer-list::after {
     content: '';
-    background-color: #9B9B9B;
+    background-color: var(--color-footer-line);
     height: 1px;
     display: block;
     width: auto;
@@ -472,13 +466,13 @@ body {
     top: 20px;
 }
 
-.footer-item{
+.footer-item {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
 }
 
-.footer-item:last-child{
+.footer-item:last-child {
     margin: 0;
 }
 
@@ -492,16 +486,16 @@ body {
     margin: 0;
 }
 
-.footer-email{
+.footer-email {
     text-decoration-line: underline;
 }
 
-.footer-copyright-container{
+.footer-copyright-container {
     display: flex;
     justify-content: space-between;
 }
 
-.footer-copyright{
+.footer-copyright {
     padding: 0;
     margin: 0;
 }
@@ -515,7 +509,7 @@ body {
     color: var(--color-tertiary);
 }
 
-.footer-brand-list{
+.footer-brand-list {
     position: relative;
     bottom: 30px;
     left: 15px;
