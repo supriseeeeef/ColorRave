@@ -414,7 +414,20 @@ body {
     outline: none;
 }
 
+.email{
+    width: 690px;
+    height: 60px;
+}
+
+.order-other-information{
+    width: 580px;
+    height: 50px;
+}
+
 .confirmation-button{
+    position: relative;
+    top: 70px;
+    left: 670px;
     width: 250px;
     height: 50px;  
     border: none;
@@ -451,6 +464,10 @@ body {
     
 }
 
+.footer-title:first-child{
+    padding-top: 45px;
+}
+
 .footer-title {
     font-family: Roboto;
     font-size: 24px;
@@ -459,6 +476,10 @@ body {
     letter-spacing: 0em;
     text-align: left;
     color: var(--color-tertiary);
+}
+
+.footer-email{
+    text-decoration-line: underline;
 }
 
 .footer-text {
