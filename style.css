@@ -120,7 +120,6 @@ body {
     font-size: 48px;
     font-weight: 400;
     line-height: 64px;
-    letter-spacing: 0em;
     text-align: left;
     color: var(--color-tertiary);
     margin-left: 25px;
@@ -132,7 +131,6 @@ body {
     font-size: 144px;
     font-weight: 400;
     line-height: 192px;
-    letter-spacing: 0em;
     text-align: left;
     color: var(--color-tertiary);
     margin-top: -60px;
@@ -144,7 +142,6 @@ body {
     font-size: 72px;
     font-weight: 400;
     line-height: 96px;
-    letter-spacing: 0em;
     text-align: left;
     color: var(--color-tertiary);
     margin-top: -110px;
@@ -155,7 +152,6 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
-    letter-spacing: 0em;
     text-align: left;
     color: var(--color-tertiary);
     margin-top: -40px;
@@ -174,7 +170,6 @@ body {
     font-size: 24px;
     font-weight: 400;
     line-height: 28px;
-    letter-spacing: 0em;
     text-align: center;
     margin-top: 41px;
     margin-bottom: 183px;
@@ -221,7 +216,6 @@ body {
     font-size: 36px;
     font-weight: 400;
     line-height: 48px;
-    letter-spacing: 0em;
     text-align: center;
     color: var(--color-tertiary);
 }
@@ -244,7 +238,6 @@ body {
     font-size: 48px;
     font-weight: 400;
     line-height: 64px;
-    letter-spacing: 0em;
     text-align: center;
     color: var(--color-tertiary);
     margin-top: 2px;
@@ -324,7 +317,6 @@ body {
     font-size: 24px;
     font-weight: 400;
     line-height: 28px;
-    letter-spacing: 0em;
     text-align: left;
     color: var(--color-tertiary);
 }
@@ -334,7 +326,6 @@ body {
     font-size: 14px;
     font-weight: 400;
     line-height: 16px;
-    letter-spacing: 0em;
     text-align: left;
     color: var(--color-date);
     margin-top: -12px;
@@ -349,7 +340,6 @@ body {
     font-size: 14px;
     font-weight: 400;
     line-height: 16px;
-    letter-spacing: 0em;
     text-align: left;
     color: var(--color-tertiary);
 }
@@ -359,7 +349,6 @@ body {
     font-size: 12px;
     font-weight: 400;
     line-height: 14px;
-    letter-spacing: 0em;
     text-align: left;
     color: var(--color-tertiary);
 }
@@ -376,7 +365,6 @@ body {
     font-size: 48px;
     font-weight: 400;
     line-height: 64px;
-    letter-spacing: 0em;
     text-align: center;
     color: var(--color-tertiary);
     padding-top: 20px;
@@ -499,7 +487,6 @@ body {
     font-size: 24px;
     font-weight: 400;
     line-height: 28px;
-    letter-spacing: 0em;
     text-align: left;
     color: var(--color-tertiary);
     margin: 0;
@@ -524,7 +511,6 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
-    letter-spacing: 0em;
     text-align: left;
     color: var(--color-tertiary);
 }
