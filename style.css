@@ -188,12 +188,6 @@ body {
     justify-content: space-between;
 }
 
-.feature-item {
-    text-align: center;
-    margin: 105px 165px;
-    
-}
-
 .feature-list {
     display: flex;
     gap: 145px;
@@ -202,6 +196,18 @@ body {
     margin-top: -40px;
     align-items: center;
     justify-content: center;
+    border: var(--color-hover) 5px solid;
+}
+
+.feature-item {
+    text-align: center;
+    margin: 105px 165px;
+    
+}
+
+.line {
+    border-left: white 1px solid;
+    border-right: white 1px solid;
 }
 
 .feature-title {
@@ -216,13 +222,8 @@ body {
 }
 
 .feature-image {
-    width: 100px;
-    height: auto;
     width: 240px;
     height: 240px;
-    top: 1184px;
-    left: 985px;
-    margin-right: 145px;
 }
 
 /* MAIN 3nd Section */
