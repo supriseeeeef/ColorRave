@@ -8,6 +8,8 @@
     --color-hover: #8E32C6;
     --color-bg: #021635;
     --color-date: #D8D8D8;
+    --order-text: #959595;
+
 }
 
 li {
@@ -236,6 +238,7 @@ body {
     background-size: cover;
 }
 
+
 .section-title {
     font-family: Playfair Display;
     font-size: 48px;
@@ -266,23 +269,20 @@ body {
 
 .review-item-1{
     background: linear-gradient(136.55deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
-    /* box-shadow: 0px 30px 0px -13px #533978; */
     box-shadow: 0px 14px 0px -5px #7B54B2;
 }
 
 .review-item-2{
     background: linear-gradient(136.55deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
-    /* box-shadow: 0px 30px 0px -13px #61337C; */
     box-shadow: 0px 14px 0px -5px #9159B1;
 }
 
 .review-item-3{
     background: linear-gradient(142.67deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
-    /* box-shadow: 0px 30px 0px -13px #732F26; */
     box-shadow: 0px 14px 0px -5px #B95A4C;
 }
 
-.review-item-1::after{
+/* .review-item-1::after{
     content: '';
     background-color: #732F26;
     border-radius: 0 0 2px 2px;
@@ -313,7 +313,7 @@ body {
     width: 230px;
     position: relative;
     top: 16px;
-}
+} */
 
 .review-item:not(:last-child){
     margin-right: 93px;
@@ -337,6 +337,7 @@ body {
     letter-spacing: 0em;
     text-align: left;
     color: var(--color-date);
+    margin-top: -12px;
 }
 
 .profile-picture {
@@ -368,7 +369,7 @@ body {
 .order-section{
     background-image: url('photo/11.jpg');
     background-size: cover;
-    padding: 50px;
+    padding: 37px;
 }
 
 .order-title{
@@ -379,14 +380,51 @@ body {
     letter-spacing: 0em;
     text-align: center;
     color: var(--color-tertiary);
-
+    padding: 20px auto 33px auto;
 }
 
-.Order-button{
+.order-list {
+    text-align: center;
+}
+
+.order-item {
+    margin-bottom: 19px;
+}
+
+.order-user-text {
+    padding-left: 25px;
+    color: var(--order-text);
+    font-size: 28px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 33px;
+    border-radius: 50px;
+    border: none;
+}
+
+.order-user-text::placeholder {
+    color: var(--order-text);
+    font-size: 28px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.order-user-text:focus {
+    outline: none;
+}
+
+.confirmation-button{
+    width: 250px;
+    height: 50px;  
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.order-button{
     width: 248px;
     height: 68px;
-    top: 2546px;
-    left: 596px;
     border-radius: 16px;
     background: var(--color-hover);
     color:  var(--color-tertiary);
@@ -396,6 +434,11 @@ body {
     line-height: 28px;
     letter-spacing: 0em;
     text-align: center;
+    margin: 0 auto;
+    display: block;
+    border: none;
+    margin-top: 19px;
+    cursor: pointer;
 }
 
 /* FOOTER */

@@ -71,7 +71,7 @@
             <div class="container feature">
                 <ul class="feature-list">
                     <li class="feature-item"><h3 class="feature-title">Premium<br>Quality</h3><img class="feature-image" src="photo/3.jpg" alt="5stars"></li>
-                    <li class="feature-item line"><h3 class="feature-title">Indelible<br>paint</h3><img class="feature-image" src="photo/4.jpg" alt="paint"></li>
+                    <li class="feature-item line"><img class="feature-image" src="photo/4.jpg" alt="paint"><h3 class="feature-title">Indelible<br>paint</h3></li>
                     <li class="feature-item"><h3 class="feature-title">Fast<br>shipping</h3><img class="feature-image" src="photo/5.jpg" alt="Delivery car"></li>
                 </ul>
             </div>
@@ -107,13 +107,25 @@
         <section class="order-section">
             <div class="container">
                 <h3 class="order-title">Order</h3>
-                <input type="email" id="email" name="email" placeholder="Write your email" required>
-                <button class="confirmation">Confirm</button>
-                <input type="text" id="country" name="country" placeholder="Your Country" required>    
-                <input type="text" id="city" name="city" placeholder="Your City" required>
-                <input type="text" id="address" name="address" placeholder="Your Address" required>
-                <button type="submit" class="Order-button">Order my Nike</button>
+                <ul class="order-list">
+                    <li class="order-item">
+                        <input type="email" class="email order-user-text" name="email" placeholder="Write your email">
+                    </li>
+                    <li class="order-item">
+                        <button class="confirmation-button order-user-text">Confirm</button>
+                    </li>
+                    <li class="order-item">
+                        <input type="text" class="country order-user-text" name="country" placeholder="Your Country">
+                    </li>
+                    <li class="order-item">
+                        <input type="text" class="city order-user-text" name="city" placeholder="Your City">
+                    </li>
+                    <li class="order-item">
+                        <input type="text" class="address order-user-text" name="address" placeholder="Your Address">
+                    </li>
+                </ul>
             </div>
+            <button type="submit" class="order-button">Order my Nike</button>
         </section>
     </main>
     <footer class="footer">
