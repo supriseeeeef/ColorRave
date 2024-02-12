@@ -369,7 +369,6 @@ body {
 .order-section{
     background-image: url('photo/11.jpg');
     background-size: cover;
-    padding: 37px;
 }
 
 .order-title{
@@ -380,11 +379,15 @@ body {
     letter-spacing: 0em;
     text-align: center;
     color: var(--color-tertiary);
-    padding: 20px auto 33px auto;
+    padding-top: 20px;
+    margin: 2px 0 0 0;
 }
 
 .order-list {
     text-align: center;
+    margin: 0;
+    padding-bottom: 37px;
+    padding-left: 0;
 }
 
 .order-item {
@@ -392,7 +395,7 @@ body {
 }
 
 .order-user-text {
-    padding-left: 25px;
+    padding: 0 25px;
     color: var(--order-text);
     font-size: 28px;
     font-family: Roboto;
@@ -417,6 +420,7 @@ body {
 .email{
     width: 690px;
     height: 60px;
+    padding-right: 220px;
 }
 
 .order-other-information{
@@ -425,13 +429,18 @@ body {
 }
 
 .confirmation-button{
+    color: var(--order-text);
+    font-size: 28px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 33px;
     position: relative;
-    top: 70px;
-    left: 670px;
-    width: 250px;
+    top: 55px;
+    left: 220px;
+    width: 100px;
     height: 50px;  
     border: none;
-    background-color: transparent;
+    background-color: var(--color-tertiary);
     cursor: pointer;
 }
 
@@ -445,7 +454,6 @@ body {
     font-size: 24px;
     font-weight: 400;
     line-height: 28px;
-    letter-spacing: 0em;
     text-align: center;
     margin: 0 auto;
     display: block;
@@ -458,14 +466,12 @@ body {
 
 .footer {
     background: var(--color-bg);
+    margin: -16px;
 }
 
-.footer-section {
-    
-}
-
-.footer-title:first-child{
-    padding-top: 45px;
+.footer-list {
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer-title {
@@ -476,6 +482,7 @@ body {
     letter-spacing: 0em;
     text-align: left;
     color: var(--color-tertiary);
+    margin: 0;
 }
 
 .footer-email{
