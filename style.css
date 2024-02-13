@@ -223,10 +223,11 @@ a {
 /* MAIN 3nd Section */
 
 .reviews-section {
-    background-image: url('photo/6.jpg');
-    background-size: cover;
+    background-image: url('photo/6.jpg'), url('photo/7.jpg');
+    background-size: cover, auto; 
+    background-position: center, left bottom; 
+    background-repeat: no-repeat, no-repeat;
 }
-
 
 .section-title {
     font-family: Playfair Display;
