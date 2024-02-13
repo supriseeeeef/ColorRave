@@ -240,7 +240,7 @@ a {
 /* MAIN 3nd Section */
 
 .reviews-section {
-    background-image: url('photo/7.jpg'), url('photo/6.jpg');
+    background-image: url('photo/5.svg'), url('photo/6.jpg');
     background-size: auto, cover; 
     background-position: left bottom, center; 
     background-repeat: no-repeat, no-repeat;
@@ -287,7 +287,7 @@ a {
     box-shadow: 0px 14px 0px -5px #B95A4C;
 }
 
-.review-item-1::after{
+/* .review-item-1::after{
     content: '';
     background-color: #533978;
     border-radius: 0 0 2px 2px;
@@ -318,7 +318,7 @@ a {
     width: 230px;
     position: relative;
     top: 44px;
-}
+} */
 
 .review-item:not(:last-child) {
     margin-right: 93px;
