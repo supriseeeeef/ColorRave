@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColorRawe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="photo/1.svg" type="image/png">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-div">
+                <a class="logotype" href="#">
+                    <img src="photo/1.svg" alt="логотип">
+                </a>
+                <nav class="nav-header">
+                    <ul class="header-list">
+                        <li class="active">
+                            <a href="#">Головна</a>
+                        </li>
+                        <li class="header-items">
+                            <a href="#">Переваги</a>
+                        </li>
+                        <li class="header-items">
+                            <a href="#">Відгуки</a>
+                        </li>
+                        <li class="header-items">
+                            <a href="#">Контакти</a>
+                        </li>
+                        <li class="header-items">
+                            <a href="#">Замовлення</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="language-list">
+                    <li>
+                        <a href="#" class="UA">Укр</a>
+                    </li>
+                    <li>
+                        <a href="#" class="Eng active">Анг</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="intro-section">
+            <div class="container">
+                <div class="brand-info">
+                    <img src="photo/1.svg" alt="логотип" class="logotype2">
+                    <h3 class="brand-name">С&R</h3>
+                    <h1 class="main-title">ColoRawe</h1>
+                    <h2 class="subtitle">Ваша мрія Nike</h2>
+                    <p class="description">На цьому сайті ви зможете знайти індивідуальні кросівки Nike вашої мрії. <br>
+                        Оригінальна компанія не може створити такі красиві <br>
+                        кросівки, як ми.<br>
+                        Удачі у пошуку свого шляху у світі індивідуальних кросівок.</p>
+                    <button type="button" class="cta-button">Купити мої Nike</button>
+                </div>
+            </div>
+        </section>
+        <section class="feature-section">
+            <div class="container feature">
+                <ul class="feature-list">
+                    <li class="feature-item"><h3 class="feature-title">Преміумна<br>якість</h3><img class="feature-image" src="photo/3.jpg" alt="5зірок"></li>
+                    <li class="feature-item line"><img class="feature-image" src="photo/4.jpg" alt="фарба"><h3 class="feature-title">Незмивна<br>фарба</h3></li>
+                    <li class="feature-item"><h3 class="feature-title">Швидка<br>доставка</h3><img class="feature-image" src="photo/5.jpg" alt="Доставка автомобілем"></li>
+                </ul>
+            </div>
+        </section>
+        <section class="reviews-section">
+            <h2 class="section-title">Відгуки</h2>
+            <div class="container">
+                <ul class="review-list">
+                    <li class="review-item review-item-1">
+                        <h2 class="review-title">Кросівки дуже зручні і добре розфарбовані, за рік нічого не зносилось.</h2>
+                        <h3 class="review-date">25.11</h3>
+                        <img src="photo/8.jpg" alt="pfp" class="profile-picture">
+                        <h3 class="review-author">Джон Тейлор</h3>
+                        <h3 class="review-membership">З нами з 2018 року</h3>
+                    </li>
+                    <li class="review-item review-item-2">
+                        <h2 class="review-title">Я дуже задоволений цією колірною схемою. Вони підходять до всіх моїх речей.</h2>
+                        <h3 class="review-date">05.01</h3>
+                        <img src="photo/9.jpg" alt="pfp" class="profile-picture">
+                        <h3 class="review-author">Елізабет Гарсія</h3>
+                        <h3 class="review-membership">З нами з 2020 року</h3>
+                    </li>
+                    <li class="review-item review-item-3">
+                        <h2 class="review-title">Точно підходять, якщо потрібно піти на вечірку. Я активно використовую їх, фарба супер.</h2>
+                        <h3 class="review-date">18.06</h3>
+                        <img src="photo/10.jpg" alt="pfp" class="profile-picture">
+                        <h3 class="review-author">Том Макваре</h3>
+                        <h3 class="review-membership">З нами з 2019 року</h3>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="order-section">
+            <div class="container">
+                <h3 class="order-title">Замовлення</h3>
+                <ul class="order-list">
+                    <li>
+                        <button type="button" class="confirmation-button">Підтвердити</button>
+                    </li>
+                    <li class="order-item">
+                        <input type="email" class="email order-user-text" name="email" placeholder="Ваш email">
+                    </li>
+                    <li class="order-item">
+                        <input type="text" class="order-other-information order-user-text" name="country" placeholder="Ваша країна">
+                    </li>
+                    <li class="order-item">
+                        <input type="text" class="order-other-information order-user-text" name="city" placeholder="Ваше місто">
+                    </li>
+                    <li class="order-item">
+                        <input type="text" class="order-other-information order-user-text" name="address" placeholder="Ваша адреса">
+                    </li>
+                    <li>
+                        <button type="button" class="order-button">Замовити мої Nike</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer-list">
+                <li class="footer-item">
+                    <p class="footer-title ">Маєте питання?</p>
+                <a class="footer-title footer-email" href="mailto:ColoRawe_support@gmail.com">ColoRawe_support@gmail.com</a>
+                </li>
+                <li class="footer-item">
+                    <p class="footer-title">Маєте пропозицію про співпрацю?</p>
+                    <a class="footer-title footer-email" href="mailto:ColoRawe_Cooperation@gmail.com">ColoRawe_Cooperation@gmail.com</a>
+                </li>
+                <li class="footer-item">
+                    <p class="footer-title">Питання про рекламу?</p>
+                    <a class="footer-title footer-email" href="mailto:ColoRawe_Advertising@gmail.com">ColoRawe_Advertising@gmail.com</a>
+                </li>
+            </ul>
+            <div class="footer-copyright-container">
+                <ul class="footer-copyright">
+                    <li class="footer-text">2022 ColoRawe @Всі права захищені</li>
+                    <li class="footer-text">Сполучені Штати</li>
+                </ul>
+                <ul class="footer-brand-list">
+                    <li><img src="photo/1.svg" alt="Бренд"></li>
+                    <li class="footer-text footer-brand">С&R</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
