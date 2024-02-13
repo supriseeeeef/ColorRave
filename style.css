@@ -56,19 +56,19 @@ a {
     gap: 0 29px;
 }
 
-.active {
-    color: var(--color-tertiary);
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400px;
-    font-size: 24px;
-}
-
 .header-items {
     color: var(--color-text);
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 24px;
 }
+
+.active:hover,
+.header-items:hover {
+    color: #00A8F7;
+    transition: color 0.3s ease-in-out;
+}
+
 
 .language-list li{
     display: inline-block;
@@ -90,6 +90,13 @@ a {
 .Eng {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    font-size: 24px;
+}
+
+.active {
+    color: var(--color-tertiary);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
     font-size: 24px;
 }
 
@@ -168,7 +175,17 @@ a {
     text-align: center;
     margin-top: 41px;
     margin-bottom: 183px;
+    transition: background-color 0.3s, transform 0.3s;
 }
+
+.cta-button:hover {
+    transform: scale(1.05);
+}
+
+.cta-button:active {
+    transform: scale(0.95);
+}
+
 
 /* MAIN 2nd Section */
 
@@ -449,6 +466,15 @@ a {
     border: none;
     margin-top: 19px;
     cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.order-button:hover {
+    transform: scale(1.05);
+}
+
+.order-button:active {
+    transform: scale(0.95);
 }
 
 /* FOOTER */
@@ -526,4 +552,38 @@ a {
     position: relative;
     top: -10px;
     left: 25px;
+}
+
+/* ANIMATIONS */
+
+.text-focus-in {
+	animation: text-focus-in 0.6s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@keyframes text-focus-in {
+    0% {
+      filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      filter: blur(0px);
+      opacity: 1;
+    }
+ }
+  
+.tracking-in-expand {
+	animation: tracking-in-expand 0.6s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.4em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
 }
