@@ -1,4 +1,4 @@
-/* IMPORTANT */
+
 body {
     margin: 0;
     padding: 0;
@@ -30,8 +30,6 @@ a {
     text-decoration: none;
     color: inherit;
 }
-
-/* Header */
 
 .header {
     background-color: var(--color-primary);
@@ -99,8 +97,6 @@ a {
     font-weight: 400px;
     font-size: 24px;
 }
-
-/* MAIN 1st Section */
 
 .intro-section {
     background-image: url('photo/2.jpg');
@@ -186,9 +182,6 @@ a {
     transform: scale(0.95);
 }
 
-
-/* MAIN 2nd Section */
-
 .feature-section {    
     background-image: url('photo/6.jpg');
     background-repeat: no-repeat;
@@ -237,8 +230,6 @@ a {
     height: 240px;
 }
 
-/* MAIN 3nd Section */
-
 .reviews-section {
     background-image: url('photo/5.svg'), url('photo/6.jpg');
     background-size: auto, cover; 
@@ -286,39 +277,6 @@ a {
     background: linear-gradient(142.67deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
     box-shadow: 0px 14px 0px -5px #B95A4C;
 }
-
-/* .review-item-1::after{
-    content: '';
-    background-color: #533978;
-    border-radius: 0 0 2px 2px;
-    height: 7px;
-    display: block;
-    width: 230px;
-    position: relative;
-    top: 44px;
-}
-
-.review-item-2::after{
-    content: '';
-    background-color: #61337C;
-    border-radius: 0 0 2px 2px;
-    height: 7px;
-    display: block;
-    width: 230px;
-    position: relative;
-    top: 44px;
-}
-
-.review-item-3::after{
-    content: '';
-    background-color: #732F26;
-    border-radius: 0 0 2px 2px;
-    height: 7px;
-    display: block;
-    width: 230px;
-    position: relative;
-    top: 44px;
-} */
 
 .review-item:not(:last-child) {
     margin-right: 93px;
@@ -370,8 +328,6 @@ a {
     margin-left: 35px;
     margin-top: -15px;
 }
-
-/* MAIN 4nd Section */
 
 .order-section {
     background-image: url('photo/11.jpg');
@@ -477,8 +433,6 @@ a {
     transform: scale(0.95);
 }
 
-/* FOOTER */
-
 .footer {
     background: var(--color-bg);
     margin-top: -16px;
@@ -554,7 +508,6 @@ a {
     left: 25px;
 }
 
-/* ANIMATIONS */
 
 .text-focus-in {
 	animation: text-focus-in 0.6s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
