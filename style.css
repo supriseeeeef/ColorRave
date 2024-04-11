@@ -1,4 +1,3 @@
-
 body {
     margin: 0;
     padding: 0;
@@ -68,7 +67,7 @@ a {
 }
 
 
-.language-list li{
+.language-list li {
     display: inline-block;
     margin-right: 10px;
 }
@@ -182,12 +181,12 @@ a {
     transform: scale(0.95);
 }
 
-.feature-section {    
+.feature-section {
     background-image: url('photo/6.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-   
+
 }
 
 .feature {
@@ -232,8 +231,8 @@ a {
 
 .reviews-section {
     background-image: url('photo/5.svg'), url('photo/6.jpg');
-    background-size: auto, cover; 
-    background-position: left bottom, center; 
+    background-size: auto, cover;
+    background-position: left bottom, center;
     background-repeat: no-repeat, no-repeat;
 }
 
@@ -261,6 +260,11 @@ a {
     border-radius: 15px;
     margin-bottom: 114px;
     padding: 49px 13px 29px 13px;
+    transition-duration: 700ms;
+}
+
+.review-item:hover {
+    scale: 1.1;
 }
 
 .review-item-1 {
@@ -400,7 +404,7 @@ a {
     top: 55px;
     left: 220px;
     width: 100px;
-    height: 50px;  
+    height: 50px;
     border: none;
     background-color: var(--color-tertiary);
     cursor: pointer;
@@ -411,7 +415,7 @@ a {
     height: 68px;
     border-radius: 16px;
     background: var(--color-hover);
-    color:  var(--color-tertiary);
+    color: var(--color-tertiary);
     font-family: Roboto;
     font-size: 24px;
     font-weight: 400;
@@ -510,33 +514,36 @@ a {
 
 
 .text-focus-in {
-	animation: text-focus-in 0.6s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: text-focus-in 0.6s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
 @keyframes text-focus-in {
     0% {
-      filter: blur(12px);
-      opacity: 0;
+        filter: blur(12px);
+        opacity: 0;
     }
+
     100% {
-      filter: blur(0px);
-      opacity: 1;
+        filter: blur(0px);
+        opacity: 1;
     }
- }
-  
+}
+
 .tracking-in-expand {
-	animation: tracking-in-expand 0.6s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-expand 0.6s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
 @keyframes tracking-in-expand {
     0% {
-      letter-spacing: -0.4em;
-      opacity: 0;
+        letter-spacing: -0.4em;
+        opacity: 0;
     }
+
     40% {
-      opacity: 0.6;
+        opacity: 0.6;
     }
+
     100% {
-      opacity: 1;
+        opacity: 1;
     }
 }

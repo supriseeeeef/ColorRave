@@ -1,25 +1,26 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ColorRawe</title>
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+    <link rel="shortcut icon" href="photo/1.svg" type="image/png">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="photo/1.svg" type="image/png">
 </head>
+
 
 <body>
     <header class="header">
         <div class="container">
-            <div class="header-div tracking-in-expand">
+            <div class="header-div tracking-in-expand" data-aos="zoom-in">
                 <a class="logotype" href="#">
                     <img src="photo/1.svg" alt="логотип">
                 </a>
@@ -56,7 +57,7 @@
     <main>
         <section class="intro-section">
             <div class="container">
-                <div class="brand-info text-focus-in">
+                <div class="brand-info text-focus-in" data-aos="zoom-in">
                     <img src="photo/1.svg" alt="логотип" class="logotype2">
                     <h3 class="brand-name">С&R</h3>
                     <h1 class="main-title">ColoRawe</h1>
@@ -70,7 +71,7 @@
             </div>
         </section>
         <section class="feature-section">
-            <div class="container feature">
+            <div class="container feature" data-aos="fade-left">
                 <ul class="feature-list">
                     <li class="feature-item">
                         <h3 class="feature-title">Преміумна<br>якість</h3><img class="feature-image" src="photo/2.svg"
@@ -87,8 +88,8 @@
             </div>
         </section>
         <section class="reviews-section">
-            <h2 class="section-title">Відгуки</h2>
-            <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Відгуки</h2>
+            <div class="container" data-aos="fade-up">
                 <ul class="review-list">
                     <li class="review-item review-item-1">
                         <h2 class="review-title">Кросівки дуже зручні і добре розфарбовані, за рік нічого не зносилось.
@@ -118,7 +119,7 @@
             </div>
         </section>
         <section class="order-section">
-            <div class="container">
+            <div class="container" data-aos="fade-down">
                 <h3 class="order-title">Замовлення</h3>
                 <ul class="order-list">
                     <li>
@@ -147,10 +148,10 @@
         </section>
     </main>
     <footer class="footer">
-        <div class="container">
+        <div class="container" data-aos="fade-down-left">
             <ul class="footer-list">
                 <li class="footer-item">
-                    <p class="footer-title ">Маєте питання?</p>
+                    <p class="footer-title">Маєте питання?</p>
                     <a class="footer-title footer-email"
                         href="mailto:ColoRawe_support@gmail.com">ColoRawe_support@gmail.com</a>
                 </li>
@@ -177,6 +178,10 @@
             </div>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
