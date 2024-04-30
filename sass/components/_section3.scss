@@ -1,0 +1,103 @@
+.order-section {
+  background-image: url("../photo/11.jpg");
+  background-size: cover;
+
+  .order-title {
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 64px;
+    text-align: center;
+    color: $color-tertiary;
+    padding-top: 20px;
+    margin: 2px 0 0 0;
+  }
+
+  .order-list {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 37px;
+    padding-left: 0;
+
+    .order-item {
+      margin-bottom: 19px;
+    }
+
+    .order-user-text {
+      padding: 0 25px;
+      color: $order-text;
+      font-size: 28px;
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      line-height: 33px;
+      border-radius: 50px;
+      border: none;
+
+      &::placeholder {
+        color: $order-text;
+        font-size: 28px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        line-height: 33px;
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    .email {
+      width: 690px;
+      height: 60px;
+      padding-right: 220px;
+    }
+
+    .order-other-information {
+      width: 580px;
+      height: 50px;
+    }
+
+    .confirmation-button {
+      color: $order-text;
+      font-size: 28px;
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      line-height: 33px;
+      position: relative;
+      top: 55px;
+      left: 220px;
+      width: 100px;
+      height: 50px;
+      border: none;
+      background-color: $color-tertiary;
+      cursor: pointer;
+    }
+
+    .order-button {
+      width: 248px;
+      height: 68px;
+      border-radius: 16px;
+      background: $color-hover;
+      color: $color-tertiary;
+      font-family: "Roboto", sans-serif;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 28px;
+      text-align: center;
+      margin: 0 auto;
+      display: block;
+      border: none;
+      margin-top: 19px;
+      cursor: pointer;
+      transition: background-color 0.3s, transform 0.3s;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+
+      &:active {
+        transform: scale(0.95);
+      }
+    }
+  }
+}

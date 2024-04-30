@@ -1,0 +1,83 @@
+.intro-section {
+  background-image: url("../photo/2.jpg");
+  background-size: cover;
+  padding: 50px;
+
+  .brand-info {
+    padding-top: 94px;
+
+    .logotype2 {
+      width: 160px;
+      height: 120px;
+    }
+
+    .brand-name {
+      font-family: "PT Serif", serif;
+      font-size: 48px;
+      font-weight: 400;
+      line-height: 64px;
+      text-align: left;
+      color: $color-tertiary;
+      margin-left: 25px;
+      margin-top: -30px;
+    }
+
+    .main-title {
+      font-family: "Playfair Display", serif;
+      font-size: 144px;
+      font-weight: 400;
+      line-height: 192px;
+      text-align: left;
+      color: $color-tertiary;
+      margin-top: -60px;
+      margin-left: -15px;
+    }
+
+    .subtitle {
+      font-family: "Playfair Display", serif;
+      font-size: 72px;
+      font-weight: 400;
+      line-height: 96px;
+      text-align: left;
+      color: $color-tertiary;
+      margin-top: -110px;
+    }
+
+    .description {
+      font-family: "Roboto", sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 21px;
+      text-align: left;
+      color: $color-tertiary;
+      margin-top: -40px;
+      margin-left: 3px;
+    }
+
+    .cta-button {
+      background: $color-hover;
+      color: $color-tertiary;
+      cursor: pointer;
+      border: none;
+      width: 254px;
+      height: 67px;
+      border-radius: 10px;
+      font-family: "Roboto", sans-serif;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 28px;
+      text-align: center;
+      margin-top: 41px;
+      margin-bottom: 183px;
+      transition: background-color 0.3s, transform 0.3s;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+
+      &:active {
+        transform: scale(0.95);
+      }
+    }
+  }
+}
